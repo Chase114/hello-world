@@ -1,0 +1,21 @@
+sphere(pos=vector(0,-20,0),
+radius=0.5,
+color.green,
+make_trail=True),
+
+particle=box(pos=vector(0,-10,0),
+pos=vector(2,2,2),
+color=color.red,
+opacity=0.4),
+
+cylinder(color=color.cyan,
+pos=vector(0,0,0),
+axis=vector(10,0,0),
+radius=0.3,
+texture = textures.stucco,
+
+arrow(pos=vector(0,10,0),
+axis=vector(6,6,0),
+color=color.orange,
+texture=textures.metal),
+
